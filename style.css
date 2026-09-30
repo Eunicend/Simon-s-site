@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.hero {
+    min-height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+.memory-wall {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+
+#memories-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+.memory-card {
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+
+.memory-message {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+.memory-author {
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}

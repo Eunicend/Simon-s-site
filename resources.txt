@@ -1,0 +1,194 @@
+<!-- GRIEF RESOURCES -->
+<section class="resource-section">
+
+    <h2>Navigating Grief</h2>
+
+    <p>
+	Grief is one of the most universal, yet deeply personal, human experiences. There 	is no single way to grieve, and what you need may change throughout the process. No 	matter where you are in your grief or what support looks like for you right now, 	there are resources that may help.
+    </p>
+
+    <div class="resource">
+
+        <h3>National Grief Resources</h3>
+
+        <p>
+            A collection of grief support organizations, support groups,
+            educational materials, and resources for adults, children,
+            and families.
+        </p>
+
+        <a href="https://www.ogr.org/national-grief-resources"
+           target="_blank"
+           rel="noopener noreferrer">
+            Explore National Grief Resources
+        </a>
+
+    </div>
+
+
+    <div class="resource">
+
+        <h3>GriefShare</h3>
+
+        <p>
+            Find in-person and online grief support groups where you can
+            connect with others navigating the loss of someone they love.
+        </p>
+
+        <a href="https://www.griefshare.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Find a GriefShare Group
+        </a>
+
+    </div>
+
+
+    <div class="resource">
+
+        <h3>Grief Counselor</h3>
+
+        <p>
+            Articles and educational resources for understanding grief,
+            loss, and the grieving process.
+        </p>
+
+        <a href="https://www.griefcounselor.org/resources/"
+           target="_blank"
+           rel="noopener noreferrer">
+            View Grief Resources
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ALCOHOL AND SUBSTANCE USE RESOURCES -->
+<section class="resource-section">
+
+    <h2>Alcohol & Substance Use Support</h2>
+
+    <p>
+        Asking for help with alcohol or substance use can be difficult.
+        Recovery does not have to happen alone. These resources can help
+        you or someone you care about find support and treatment.
+    </p>
+
+
+    <div class="resource">
+
+        <h3>SAMHSA National Helpline</h3>
+
+        <p>
+            Free and confidential treatment referral and information
+            for individuals and families facing mental health or
+            substance use concerns.
+        </p>
+
+        <p>
+            <strong>Call:</strong> 1-800-662-HELP (4357)
+        </p>
+
+        <a href="https://www.samhsa.gov/find-help/helplines/national-helpline"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit SAMHSA
+        </a>
+
+    </div>
+
+
+    <div class="resource">
+
+        <h3>FindTreatment.gov</h3>
+
+        <p>
+            Search confidentially and anonymously for mental health
+            and substance use treatment facilities throughout the
+            United States.
+        </p>
+
+        <a href="https://findtreatment.gov/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Find Treatment
+        </a>
+
+    </div>
+
+
+    <div class="resource">
+
+        <h3>NIAAA Alcohol Treatment Navigator</h3>
+
+        <p>
+            A resource from the National Institute on Alcohol Abuse
+            and Alcoholism designed to help individuals and families
+            find evidence-based alcohol treatment.
+        </p>
+
+        <a href="https://alcoholtreatment.niaaa.nih.gov/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Explore Treatment Options
+        </a>
+
+    </div>
+
+
+    <div class="resource">
+
+        <h3>Alcoholics Anonymous</h3>
+
+        <p>
+            Find Alcoholics Anonymous meetings and peer-support
+            resources near you or online.
+        </p>
+
+        <a href="https://www.aa.org/find-aa"
+           target="_blank"
+           rel="noopener noreferrer">
+            Find an A.A. Meeting
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- EMOTIONAL SUPPORT -->
+<section class="resource-section">
+
+    <h2>Emotional & Crisis Support</h2>
+
+    <p>
+        You do not have to navigate a moment of crisis alone.
+        Immediate, confidential support is available.
+    </p>
+
+
+    <div class="resource crisis-resource">
+
+        <h3>988 Suicide & Crisis Lifeline</h3>
+
+        <p>
+            Free and confidential emotional support is available
+            24 hours a day, 7 days a week.
+        </p>
+
+        <p>
+            <strong>Call or text: 988</strong>
+        </p>
+
+        <a href="https://988lifeline.org/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Visit the 988 Lifeline
+        </a>
+
+    </div>
+
+</section>

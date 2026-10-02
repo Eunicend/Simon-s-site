@@ -9,16 +9,18 @@
     <title>In Loving Memory of Our Simon</title>
 
     <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#f3f7f9">
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="story.html">About</a>
+    <header class="site-header">
+        <a class="site-brand" href="index.html" aria-label="Simon memorial home">Simon <span>Remembered</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="story.html">Our Story</a>
             <a href="memories.html">Memories</a>
-            <a href="resources.html">Resources</a>
+            <a href="resources.html">Support</a>
         </nav>
     </header>
 
@@ -26,20 +28,28 @@
     <main>
 
         <section class="hero">
-            <h1>In Loving Memory of Simon</h1>
+            <div class="hero-slideshow" aria-hidden="true">
+                <img class="hero-slide is-active" alt="">
+                <img class="hero-slide" alt="">
+            </div>
 
-            <p>2004 – 2021</p>
+            <div class="hero-content">
+                <h1>In Loving Memory of Simon</h1>
 
-            <p>
-                A place to remember Simon, share his story,
-                and continue his legacy.
-            </p>
+                <p>2004 – 2021</p>
 
-            <a href="story.html">Learn More</a>
+                <p>
+                    A place to remember Simon, share his story,
+                    and continue his legacy.
+                </p>
+
+                <a href="story.html">Learn More</a>
+            </div>
         </section>
 
 
-        <section class="about">
+        <section class="home-section about-section">
+            <p class="eyebrow">A life remembered</p>
             <h2>Remembering Simon</h2>
 
             <p>
@@ -50,7 +60,8 @@
         </section>
 
 
-        <section class="memory-preview">
+        <section class="home-section memory-preview-section">
+            <p class="eyebrow">Keep his memory close</p>
             <h2>Share a Memory</h2>
 
             <p>
@@ -65,7 +76,7 @@
 
 
     <footer>
-        <p>Made with love in memory of our Simon.</p>
+        <p>Made with love in memory of Simon, Jack, and Evan.</p>
     </footer>
 
     <script src="js/script.js"></script>

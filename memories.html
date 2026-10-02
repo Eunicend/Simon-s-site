@@ -10,17 +10,29 @@
     <title>Share a Memory</title>
 
     <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#f3f7f9">
 </head>
 
 
 <body>
 
-    <main>
+    <header class="site-header">
+        <a class="site-brand" href="index.html" aria-label="Simon memorial home">Simon <span>Remembered</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="story.html">Our Story</a>
+            <a href="memories.html" aria-current="page">Memories</a>
+            <a href="resources.html">Support</a>
+        </nav>
+    </header>
+
+    <main class="memories-main">
 
         <!-- INTRODUCTION -->
 
         <section class="memory-intro">
 
+            <p class="eyebrow">A place for remembrance</p>
             <h1>Share a Memory</h1>
 
             <p>
@@ -31,6 +43,8 @@
             <p>
                 You may include your name or choose to remain anonymous.
             </p>
+
+            <p>Memories and photos are saved only in this browser. They are not sent to the site or shown to other visitors.</p>
 
         </section>
 
@@ -122,6 +136,19 @@
                     required
                 ></textarea></p>
 
+                <div class="memory-photo-field">
+                    <label for="memory-photos">Add Photos (optional)</label>
+                    <input
+                        type="file"
+                        id="memory-photos"
+                        name="photos"
+                        accept="image/*"
+                        multiple
+                    >
+                    <p>Choose up to 5 photos, each no larger than 5 MB.</p>
+                    <div id="photo-preview" class="memory-photo-preview" aria-live="polite"></div>
+                </div>
+
 
                 <!-- ANONYMOUS -->
 
@@ -152,8 +179,7 @@
                     >
 
                     <label for="permission">
-                        I give permission for this message
-                        to appear publicly on this website.
+                        I understand this message and any photos are stored only in this browser.
                     </label>
 
                 </div>
@@ -165,6 +191,8 @@
                     Submit Memory
                 </button>
 
+                <p id="form-status" role="status" aria-live="polite"></p>
+
             </form>
 
         </section>
@@ -173,30 +201,20 @@
         <!-- PUBLIC MEMORIES -->
 
         <section class="memory-wall">
+            <h2>Memories on this device</h2>
 
  
 
     <div id="memories-container">
-
-       
-
-        <article class="memory-card">
-            one person's memory
-        </article>
-
-        <article class="memory-card">
-            another person's memory
-        </article>
-
-        <article class="memory-card">
-            another person's memory
-        </article>
-
     </div>
 
 </section>
 
     </main>
+
+    <footer>
+        <p>Made with love in memory of Simon, Jack, and Evan.</p>
+    </footer>
 
 
     <script src="memories.js"></script>

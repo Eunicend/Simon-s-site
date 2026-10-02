@@ -138,17 +138,15 @@
 
         try {
 
-            const { data, error } = await supabaseClient
-                .from("memories")
-                .insert(memory)
-                .select()
-                .single();
+            const { error } = await supabaseClient
+            .from("memories")
+            .insert(memory);
 
-            if (error) {
+                if (error) {
                 throw error;
-            }
+                }
 
-            console.log("Memory submitted:", data);
+            console.log("Memory submitted successfully");
 
             formStatus.textContent =
                 "Thank you for sharing this memory. It will appear after it has been reviewed.";
